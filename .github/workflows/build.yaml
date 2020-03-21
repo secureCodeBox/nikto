@@ -22,6 +22,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
           registry: docker.pkg.github.com
-          repository: securecodebox/nikto
+          repository: securecodebox/nikto/nikto
           tag_with_ref: true
           tag_with_sha: true
